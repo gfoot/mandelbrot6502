@@ -1,346 +1,334 @@
 ==============================================================================
-0206 : JMP 022B                      :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
-022B : JSR FE87                      :        6 cycles (  0.000004%)        1 ins (6.00 cpi)
-023C : STZ 21                        :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
-023E : LDA #86                       :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-0240 : STA 20                        :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
-0242 : LDX #20                       :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-0244 : JSR 0468                      :        6 cycles (  0.000004%)        1 ins (6.00 cpi)
-0247 : JSR FE87                      :        6 cycles (  0.000004%)        1 ins (6.00 cpi)
-024E : STZ 21                        :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
-0250 : LDA #50                       :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-0252 : STA 20                        :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
-0254 : LDX #20                       :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-0256 : JSR 0468                      :        6 cycles (  0.000004%)        1 ins (6.00 cpi)
-0259 : JSR FE87                      :        6 cycles (  0.000004%)        1 ins (6.00 cpi)
-025F : STZ 21                        :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
-0261 : LDA #22                       :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-0263 : STA 20                        :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
-0265 : LDX #20                       :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-0267 : JSR 0468                      :        6 cycles (  0.000004%)        1 ins (6.00 cpi)
-026A : JSR FE87                      :        6 cycles (  0.000004%)        1 ins (6.00 cpi)
-027C : LDA #C0                       :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-027E : STA 2C                        :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
-0280 : LDA #FE                       :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-0282 : STA 2D                        :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
-0284 : LDA #50                       :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-0286 : STA 3A                        :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
-0288 : LDA #74                       :      160 cycles (  0.000100%)       80 ins (2.00 cpi)
-028A : STA 2A                        :      240 cycles (  0.000151%)       80 ins (3.00 cpi)
-028C : LDA #FE                       :      160 cycles (  0.000100%)       80 ins (2.00 cpi)
-028E : STA 2B                        :      240 cycles (  0.000151%)       80 ins (3.00 cpi)
-0290 : LDA #86                       :      160 cycles (  0.000100%)       80 ins (2.00 cpi)
-0292 : STA 39                        :      240 cycles (  0.000151%)       80 ins (3.00 cpi)
-0294 : LDA 2A                        :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
-0296 : STA 20                        :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
-0298 : LDA 2B                        :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
-029A : STA 21                        :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
-029C : LDA 2C                        :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
-029E : STA 22                        :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
-02A0 : LDA 2D                        :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
-02A2 : STA 23                        :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
-02A4 : LDX #22                       :    21440 cycles (  0.013452%)    10720 ins (2.00 cpi)
-02A6 : STX 38                        :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
-02A8 : LDY #00                       :   316610 cycles (  0.198647%)   158305 ins (2.00 cpi) **
-02AA : LDA 21                        :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
-02AC : BPL 02C2                      :   358084 cycles (  0.224668%)   158305 ins (2.26 cpi) ***
-02AE : INY                           :   233662 cycles (  0.146604%)   116831 ins (2.00 cpi) *
-02AF : SEC                           :   233662 cycles (  0.146604%)   116831 ins (2.00 cpi) *
-02B0 : LDA #00                       :   233662 cycles (  0.146604%)   116831 ins (2.00 cpi) *
-02B2 : SBC 20                        :   350493 cycles (  0.219905%)   116831 ins (3.00 cpi) **
-02B4 : STA 20                        :   350493 cycles (  0.219905%)   116831 ins (3.00 cpi) **
-02B6 : STA 32                        :   350493 cycles (  0.219905%)   116831 ins (3.00 cpi) **
-02B8 : LDA #00                       :   233662 cycles (  0.146604%)   116831 ins (2.00 cpi) *
-02BA : SBC 21                        :   350493 cycles (  0.219905%)   116831 ins (3.00 cpi) **
-02BC : STA 21                        :   350493 cycles (  0.219905%)   116831 ins (3.00 cpi) **
-02BE : STA 33                        :   350493 cycles (  0.219905%)   116831 ins (3.00 cpi) **
-02C0 : BRA 02C8                      :   350493 cycles (  0.219905%)   116831 ins (3.00 cpi) **
-02C2 : STA 33                        :   124422 cycles (  0.078065%)    41474 ins (3.00 cpi) *
-02C4 : LDA 20                        :   124422 cycles (  0.078065%)    41474 ins (3.00 cpi) *
-02C6 : STA 32                        :   124422 cycles (  0.078065%)    41474 ins (3.00 cpi) *
-02C8 : STZ 34                        :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
-02CA : LDA 23                        :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
-02CC : BPL 02E2                      :   397919 cycles (  0.249661%)   158305 ins (2.51 cpi) ***
-02CE : INY                           :   153992 cycles (  0.096617%)    76996 ins (2.00 cpi) *
-02CF : SEC                           :   153992 cycles (  0.096617%)    76996 ins (2.00 cpi) *
-02D0 : LDA #00                       :   153992 cycles (  0.096617%)    76996 ins (2.00 cpi) *
-02D2 : SBC 22                        :   230988 cycles (  0.144926%)    76996 ins (3.00 cpi) *
-02D4 : STA 22                        :   230988 cycles (  0.144926%)    76996 ins (3.00 cpi) *
-02D6 : STA 35                        :   230988 cycles (  0.144926%)    76996 ins (3.00 cpi) *
-02D8 : LDA #00                       :   153992 cycles (  0.096617%)    76996 ins (2.00 cpi) *
-02DA : SBC 23                        :   230988 cycles (  0.144926%)    76996 ins (3.00 cpi) *
-02DC : STA 23                        :   230988 cycles (  0.144926%)    76996 ins (3.00 cpi) *
-02DE : STA 36                        :   230988 cycles (  0.144926%)    76996 ins (3.00 cpi) *
-02E0 : BRA 02E8                      :   230988 cycles (  0.144926%)    76996 ins (3.00 cpi) *
-02E2 : STA 36                        :   243927 cycles (  0.153044%)    81309 ins (3.00 cpi) **
-02E4 : LDA 22                        :   243927 cycles (  0.153044%)    81309 ins (3.00 cpi) **
-02E6 : STA 35                        :   243927 cycles (  0.153044%)    81309 ins (3.00 cpi) **
-02E8 : STZ 37                        :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
-02EA : STZ 2E                        :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
-02EC : STZ 24                        :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
-02EE : STZ 25                        :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
-02F0 : STZ 2F                        :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
-02F2 : STZ 26                        :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
-02F4 : STZ 27                        :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
-02F6 : STZ 31                        :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
-02F8 : STZ 28                        :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
-02FA : STZ 29                        :   474940 cycles (  0.297986%)   158310 ins (3.00 cpi) ****
-02FC : LSR 21                        :  5238165 cycles (  3.286515%)  1047633 ins (5.00 cpi) ********************************************
-02FE : ROR 20                        :  5238151 cycles (  3.286507%)  1047633 ins (5.00 cpi) ********************************************
-0300 : BCC 0328                      :  2586297 cycles (  1.622688%)  1047632 ins (2.47 cpi) **********************
-0301 : A5 2E    : LDA 2E         : A :       12 cycles (  0.000008%)        4 ins (3.00 cpi)
-0302 : CLC                           :  1113190 cycles (  0.698435%)   556595 ins (2.00 cpi) *********
-0303 : LDA 2E                        :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
-0305 : ADC 32                        :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
-0307 : STA 2E                        :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
-0309 : LDA 24                        :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
-030B : ADC 33                        :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
-030D : STA 24                        :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
-030F : LDA 25                        :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
-0311 : ADC 34                        :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
-0313 : STA 25                        :  1669793 cycles (  1.047657%)   556599 ins (3.00 cpi) **************
-0314 : A5 31    : LDA 31         : A :       12 cycles (  0.000008%)        4 ins (3.00 cpi)
-0315 : CLC                           :  1113190 cycles (  0.698435%)   556595 ins (2.00 cpi) *********
-0316 : LDA 31                        :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
-0318 : ADC 35                        :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
-031A : STA 31                        :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
-031C : LDA 28                        :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
-031E : ADC 36                        :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
-0320 : STA 28                        :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
-0322 : LDA 29                        :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
-0324 : ADC 37                        :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
-0326 : STA 29                        :  1669810 cycles (  1.047668%)   556600 ins (3.00 cpi) **************
-0328 : LSR 23                        :  5855760 cycles (  3.674005%)  1171152 ins (5.00 cpi) **************************************************
-032A : ROR 22                        :  5855747 cycles (  3.673997%)  1171152 ins (5.00 cpi) *************************************************
-032C : BCC 0341                      :  2979972 cycles (  1.869686%)  1171150 ins (2.54 cpi) *************************
-032D : A5 2F    : LDA 2F         : A :        9 cycles (  0.000006%)        3 ins (3.00 cpi)
-032E : CLC                           :  1066950 cycles (  0.669423%)   533475 ins (2.00 cpi) *********
-032F : LDA 2F                        :  1600434 cycles (  1.004140%)   533478 ins (3.00 cpi) *************
-0331 : ADC 35                        :  1600434 cycles (  1.004140%)   533478 ins (3.00 cpi) *************
-0333 : STA 2F                        :  1600434 cycles (  1.004140%)   533478 ins (3.00 cpi) *************
-0335 : LDA 26                        :  1600434 cycles (  1.004140%)   533478 ins (3.00 cpi) *************
-0337 : ADC 36                        :  1600434 cycles (  1.004140%)   533478 ins (3.00 cpi) *************
-0339 : STA 26                        :  1600436 cycles (  1.004141%)   533478 ins (3.00 cpi) *************
-033B : LDA 27                        :  1600434 cycles (  1.004140%)   533478 ins (3.00 cpi) *************
-033D : ADC 37                        :  1600434 cycles (  1.004140%)   533478 ins (3.00 cpi) *************
-033F : STA 27                        :  1600452 cycles (  1.004151%)   533480 ins (3.00 cpi) *************
-0341 : ASL 32                        :  5855760 cycles (  3.674005%)  1171152 ins (5.00 cpi) **************************************************
-0343 : ROL 33                        :  5855760 cycles (  3.674005%)  1171152 ins (5.00 cpi) **************************************************
-0345 : ROL 34                        :  5855760 cycles (  3.674005%)  1171152 ins (5.00 cpi) **************************************************
-0347 : ASL 35                        :  5855760 cycles (  3.674005%)  1171152 ins (5.00 cpi) **************************************************
-0349 : ROL 36                        :  5855760 cycles (  3.674005%)  1171152 ins (5.00 cpi) **************************************************
-034B : ROL 37                        :  5855748 cycles (  3.673998%)  1171152 ins (5.00 cpi) *************************************************
-034D : LDA 20                        :  3513456 cycles (  2.204403%)  1171152 ins (3.00 cpi) ******************************
-034F : ORA 21                        :  3513460 cycles (  2.204406%)  1171152 ins (3.00 cpi) ******************************
-0351 : BNE 02FC                      :  4120941 cycles (  2.585550%)  1171147 ins (3.52 cpi) ***********************************
-0353 : LDA 22                        :   845472 cycles (  0.530464%)   281824 ins (3.00 cpi) *******
-0355 : ORA 23                        :   845471 cycles (  0.530463%)   281824 ins (3.00 cpi) *******
-0357 : BNE 0328                      :   687168 cycles (  0.431141%)   281824 ins (2.44 cpi) *****
-0359 : LDA 31                        :   474914 cycles (  0.297969%)   158305 ins (3.00 cpi) ****
-035A : A5 28    : LDA 28         : A :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
-035B : ASL A                         :   316608 cycles (  0.198645%)   158304 ins (2.00 cpi) **
-035C : LDA 28                        :   474914 cycles (  0.297969%)   158305 ins (3.00 cpi) ****
-035D : 85 22    : STA 22         : A :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
-035E : ROL A                         :   316608 cycles (  0.198645%)   158304 ins (2.00 cpi) **
-035F : STA 22                        :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
-0361 : LDA 29                        :   474914 cycles (  0.297969%)   158305 ins (3.00 cpi) ****
-0362 : 85 23    : STA 23         : A :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
-0363 : ROL A                         :   316608 cycles (  0.198645%)   158304 ins (2.00 cpi) **
-0364 : STA 23                        :   474914 cycles (  0.297969%)   158305 ins (3.00 cpi) ****
-0365 : 29 01    : AND #01        : A :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-0366 : TYA                           :   316608 cycles (  0.198645%)   158304 ins (2.00 cpi) **
-0367 : AND #01                       :   316610 cycles (  0.198647%)   158305 ins (2.00 cpi) **
-0369 : BEQ 0378                      :   394834 cycles (  0.247726%)   158305 ins (2.49 cpi) ***
-036A : A9 00    : LDA #00        : A :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-036B : SEC                           :   160160 cycles (  0.100487%)    80080 ins (2.00 cpi) *
-036C : LDA #00                       :   160163 cycles (  0.100489%)    80081 ins (2.00 cpi) *
-036E : SBC 22                        :   240243 cycles (  0.150733%)    80081 ins (3.00 cpi) **
-0370 : STA 22                        :   240242 cycles (  0.150732%)    80081 ins (3.00 cpi) **
-0372 : LDA #00                       :   160163 cycles (  0.100489%)    80081 ins (2.00 cpi) *
-0374 : SBC 23                        :   240243 cycles (  0.150733%)    80081 ins (3.00 cpi) **
-0376 : STA 23                        :   240242 cycles (  0.150732%)    80081 ins (3.00 cpi) **
-0377 : A5 24    : LDA 24         : A :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
-0378 : CLC                           :   316608 cycles (  0.198645%)   158304 ins (2.00 cpi) **
-0379 : LDA 24                        :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
-037B : ADC 26                        :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
-037D : LDA 25                        :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
-037F : ADC 27                        :   474914 cycles (  0.297969%)   158305 ins (3.00 cpi) ****
-0381 : CMP #05                       :   316610 cycles (  0.198647%)   158305 ins (2.00 cpi) **
-0383 : BCS 03B3                      :   323940 cycles (  0.203246%)   158305 ins (2.05 cpi) **
-0384 : A5 24    : LDA 24         : A :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
-0385 : SEC                           :   301948 cycles (  0.189447%)   150974 ins (2.00 cpi) **
-0386 : LDA 24                        :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
-0388 : SBC 26                        :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
-038A : STA 20                        :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
-038C : LDA 25                        :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
-038E : SBC 27                        :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
-0390 : STA 21                        :   452924 cycles (  0.284172%)   150975 ins (3.00 cpi) ***
-0391 : A5 20    : LDA 20         : A :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
-0392 : CLC                           :   301948 cycles (  0.189447%)   150974 ins (2.00 cpi) **
-0393 : LDA 20                        :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
-0395 : ADC 2A                        :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
-0397 : STA 20                        :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
-0399 : LDA 21                        :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
-039B : ADC 2B                        :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
-039D : STA 21                        :   452924 cycles (  0.284172%)   150975 ins (3.00 cpi) ***
-039E : A5 22    : LDA 22         : A :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
-039F : CLC                           :   301948 cycles (  0.189447%)   150974 ins (2.00 cpi) **
-03A0 : LDA 22                        :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
-03A2 : ADC 2C                        :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
-03A4 : STA 22                        :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
-03A6 : LDA 23                        :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
-03A8 : ADC 2D                        :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
-03AA : STA 23                        :   452927 cycles (  0.284174%)   150975 ins (3.00 cpi) ***
-03AC : DEC 38                        :   754872 cycles (  0.473620%)   150975 ins (5.00 cpi) ******
-03AE : BEQ 03B3                      :   305341 cycles (  0.191576%)   150975 ins (2.02 cpi) **
-03B0 : JMP 02A8                      :   442752 cycles (  0.277790%)   147584 ins (3.00 cpi) ***
-03B3 : LDX 38                        :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
-03B5 : LDA 0209,X                    :    42880 cycles (  0.026904%)    10720 ins (4.00 cpi)
-03B8 : JSR FE72                      :    64320 cycles (  0.040355%)    10720 ins (6.00 cpi)
-03BB : CLC                           :    21440 cycles (  0.013452%)    10720 ins (2.00 cpi)
-03BC : LDA 2A                        :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
-03BE : ADC #04                       :    21440 cycles (  0.013452%)    10720 ins (2.00 cpi)
-03C0 : STA 2A                        :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
-03C2 : LDA 2B                        :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
-03C4 : ADC #00                       :    21440 cycles (  0.013452%)    10720 ins (2.00 cpi)
-03C6 : STA 2B                        :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
-03C8 : DEC 39                        :    53600 cycles (  0.033630%)    10720 ins (5.00 cpi)
-03CA : BEQ 03CF                      :    21520 cycles (  0.013502%)    10720 ins (2.01 cpi)
-03CC : JMP 0294                      :    31920 cycles (  0.020027%)    10640 ins (3.00 cpi)
-03CF : JSR 0448                      :      480 cycles (  0.000301%)       80 ins (6.00 cpi)
-03D2 : CLC                           :      160 cycles (  0.000100%)       80 ins (2.00 cpi)
-03D3 : LDA 2C                        :      240 cycles (  0.000151%)       80 ins (3.00 cpi)
-03D5 : ADC #08                       :      160 cycles (  0.000100%)       80 ins (2.00 cpi)
-03D7 : STA 2C                        :      240 cycles (  0.000151%)       80 ins (3.00 cpi)
-03D9 : LDA 2D                        :      240 cycles (  0.000151%)       80 ins (3.00 cpi)
-03DB : ADC #00                       :      160 cycles (  0.000100%)       80 ins (2.00 cpi)
-03DD : STA 2D                        :      240 cycles (  0.000151%)       80 ins (3.00 cpi)
-03DF : DEC 3A                        :      400 cycles (  0.000251%)       80 ins (5.00 cpi)
-03E1 : BEQ 03E6                      :      161 cycles (  0.000101%)       80 ins (2.01 cpi)
-03E3 : JMP 0288                      :      237 cycles (  0.000149%)       79 ins (3.00 cpi)
-03E6 : BRA 03E6                      :   851247 cycles (  0.534087%)   283749 ins (3.00 cpi) *******
-0448 : JSR FE87                      :      480 cycles (  0.000301%)       80 ins (6.00 cpi)
-044E : RTS                           :      480 cycles (  0.000301%)       80 ins (6.00 cpi)
-0468 : PHA                           :        9 cycles (  0.000006%)        3 ins (3.00 cpi)
-0469 : LDA 00,X                      :       12 cycles (  0.000008%)        3 ins (4.00 cpi)
-046B : STA 18                        :        9 cycles (  0.000006%)        3 ins (3.00 cpi)
-046D : LDA 01,X                      :       12 cycles (  0.000008%)        3 ins (4.00 cpi)
-046F : STA 19                        :        9 cycles (  0.000006%)        3 ins (3.00 cpi)
-0471 : PHY                           :        9 cycles (  0.000006%)        3 ins (3.00 cpi)
-0472 : LDA #00                       :        6 cycles (  0.000004%)        3 ins (2.00 cpi)
-0474 : PHA                           :        9 cycles (  0.000006%)        3 ins (3.00 cpi)
-0475 : LDA #00                       :       14 cycles (  0.000009%)        7 ins (2.00 cpi)
-0477 : STA 1A                        :       21 cycles (  0.000013%)        7 ins (3.00 cpi)
-0479 : LDY #10                       :       14 cycles (  0.000009%)        7 ins (2.00 cpi)
-047B : ASL 18                        :      560 cycles (  0.000351%)      112 ins (5.00 cpi)
-047D : ROL 19                        :      560 cycles (  0.000351%)      112 ins (5.00 cpi)
-047F : ROL 1A                        :      560 cycles (  0.000351%)      112 ins (5.00 cpi)
-0481 : LDA 1A                        :      336 cycles (  0.000211%)      112 ins (3.00 cpi)
-0483 : SEC                           :      224 cycles (  0.000141%)      112 ins (2.00 cpi)
-0484 : SBC #0A                       :      224 cycles (  0.000141%)      112 ins (2.00 cpi)
-0486 : BCC 048C                      :      329 cycles (  0.000206%)      112 ins (2.94 cpi)
-0488 : STA 1A                        :       21 cycles (  0.000013%)        7 ins (3.00 cpi)
-048A : INC 18                        :       35 cycles (  0.000022%)        7 ins (5.00 cpi)
-048C : DEY                           :      224 cycles (  0.000141%)      112 ins (2.00 cpi)
-048D : BNE 047B                      :      329 cycles (  0.000206%)      112 ins (2.94 cpi)
-048F : LDA 1A                        :       21 cycles (  0.000013%)        7 ins (3.00 cpi)
-0491 : ORA #30                       :       14 cycles (  0.000009%)        7 ins (2.00 cpi)
-0493 : PHA                           :       21 cycles (  0.000013%)        7 ins (3.00 cpi)
-0494 : LDA 18                        :       21 cycles (  0.000013%)        7 ins (3.00 cpi)
-0496 : ORA 19                        :       21 cycles (  0.000013%)        7 ins (3.00 cpi)
-0498 : BNE 0475                      :       18 cycles (  0.000011%)        7 ins (2.57 cpi)
-049A : PLA                           :       12 cycles (  0.000008%)        3 ins (4.00 cpi)
-049B : JSR FE72                      :       42 cycles (  0.000026%)        7 ins (6.00 cpi)
-049E : PLA                           :       28 cycles (  0.000018%)        7 ins (4.00 cpi)
-049F : BNE 049B                      :       18 cycles (  0.000011%)        7 ins (2.57 cpi)
-04A1 : PLY                           :       12 cycles (  0.000008%)        3 ins (4.00 cpi)
-04A2 : PLA                           :       12 cycles (  0.000008%)        3 ins (4.00 cpi)
-04A3 : RTS                           :       18 cycles (  0.000011%)        3 ins (6.00 cpi)
-FE00 : LDX #40                       :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-FE02 : STX 0203                      :        4 cycles (  0.000003%)        1 ins (4.00 cpi)
-FE05 : STX 0200                      :        4 cycles (  0.000003%)        1 ins (4.00 cpi)
-FE08 : LDX #FF                       :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-FE0A : TXS                           :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-FE0B : SEI                           :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-FE0C : CLV                           :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-FE0D : CLD                           :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-FE0E : CPX #00                       :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-FE10 : TXA                           :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-FE11 : TAY                           :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-FE12 : LDA #0C                       :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-FE14 : STA FF00                      :        4 cycles (  0.000003%)        1 ins (4.00 cpi)
-FE17 : JSR FE87                      :        6 cycles (  0.000004%)        1 ins (6.00 cpi)
-FE23 : JSR FE7E                      :       36 cycles (  0.000023%)        6 ins (6.00 cpi)
-FE26 : JSR FE72                      :       36 cycles (  0.000023%)        6 ins (6.00 cpi)
-FE29 : DEC A                         :       12 cycles (  0.000008%)        6 ins (2.00 cpi)
-FE2A : BEQ FE5C                      :       14 cycles (  0.000009%)        6 ins (2.33 cpi)
-FE2C : DEC A                         :        8 cycles (  0.000005%)        4 ins (2.00 cpi)
-FE2D : BEQ FE34                      :       11 cycles (  0.000007%)        4 ins (2.75 cpi)
-FE2F : DEC A                         :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
-FE30 : BEQ FE59                      :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
-FE34 : LDY #00                       :        6 cycles (  0.000004%)        3 ins (2.00 cpi)
-FE36 : STZ 02                        :        9 cycles (  0.000006%)        3 ins (3.00 cpi)
-FE38 : STZ 03                        :        9 cycles (  0.000006%)        3 ins (3.00 cpi)
-FE3A : CLC                           :        6 cycles (  0.000004%)        3 ins (2.00 cpi)
-FE3B : JSR FE7E                      :     4608 cycles (  0.002891%)      768 ins (6.00 cpi)
-FE3E : STA (00),Y                    :     4608 cycles (  0.002891%)      768 ins (6.00 cpi)
-FE40 : ADC 02                        :     2304 cycles (  0.001446%)      768 ins (3.00 cpi)
-FE42 : STA 02                        :     2304 cycles (  0.001446%)      768 ins (3.00 cpi)
-FE44 : ADC 03                        :     2304 cycles (  0.001446%)      768 ins (3.00 cpi)
-FE46 : STA 03                        :     2304 cycles (  0.001446%)      768 ins (3.00 cpi)
-FE48 : INY                           :     1536 cycles (  0.000964%)      768 ins (2.00 cpi)
-FE49 : BNE FE3B                      :     2301 cycles (  0.001444%)      768 ins (3.00 cpi)
-FE4B : LDA 02                        :        9 cycles (  0.000006%)        3 ins (3.00 cpi)
-FE4D : JSR FE72                      :       18 cycles (  0.000011%)        3 ins (6.00 cpi)
-FE50 : LDA 03                        :        9 cycles (  0.000006%)        3 ins (3.00 cpi)
-FE52 : JSR FE72                      :       18 cycles (  0.000011%)        3 ins (6.00 cpi)
-FE55 : INC 01                        :       15 cycles (  0.000009%)        3 ins (5.00 cpi)
-FE57 : BRA FE23                      :        9 cycles (  0.000006%)        3 ins (3.00 cpi)
-FE59 : JMP (0000)                    :        6 cycles (  0.000004%)        1 ins (6.00 cpi)
-FE5C : JSR FE7E                      :       12 cycles (  0.000008%)        2 ins (6.00 cpi)
-FE5F : STA 00                        :        6 cycles (  0.000004%)        2 ins (3.00 cpi)
-FE61 : JSR FE7E                      :       12 cycles (  0.000008%)        2 ins (6.00 cpi)
-FE64 : STA 01                        :        6 cycles (  0.000004%)        2 ins (3.00 cpi)
-FE66 : LDA 00                        :        6 cycles (  0.000004%)        2 ins (3.00 cpi)
-FE68 : JSR FE72                      :       12 cycles (  0.000008%)        2 ins (6.00 cpi)
-FE6B : LDA 01                        :        6 cycles (  0.000004%)        2 ins (3.00 cpi)
-FE6D : JSR FE72                      :       12 cycles (  0.000008%)        2 ins (6.00 cpi)
-FE70 : BRA FE23                      :        6 cycles (  0.000004%)        2 ins (3.00 cpi)
-FE72 : STA FF70                      :    49808 cycles (  0.031250%)    12452 ins (4.00 cpi)
-FE75 : BIT FF01                      :    49808 cycles (  0.031250%)    12452 ins (4.00 cpi)
-FE78 : BPL FE72                      :    26413 cycles (  0.016572%)    12452 ins (2.12 cpi)
-FE7A : STA FF00                      :    43772 cycles (  0.027463%)    10943 ins (4.00 cpi)
-FE7D : RTS                           :    65658 cycles (  0.041195%)    10943 ins (6.00 cpi)
-FE7E : BIT FF01                      :    81832 cycles (  0.051343%)    20458 ins (4.00 cpi)
-FE81 : BVC FE7E                      :    60596 cycles (  0.038019%)    20458 ins (2.96 cpi)
-FE83 : LDA FF00                      :     3112 cycles (  0.001953%)      778 ins (4.00 cpi)
-FE86 : RTS                           :     4668 cycles (  0.002929%)      778 ins (6.00 cpi)
-FE87 : PHA                           :      255 cycles (  0.000160%)       85 ins (3.00 cpi)
-FE88 : PHX                           :      255 cycles (  0.000160%)       85 ins (3.00 cpi)
-FE89 : PHY                           :      255 cycles (  0.000160%)       85 ins (3.00 cpi)
-FE8A : TSX                           :      170 cycles (  0.000107%)       85 ins (2.00 cpi)
-FE8B : CLC                           :      170 cycles (  0.000107%)       85 ins (2.00 cpi)
-FE8C : LDA 0104,X                    :      340 cycles (  0.000213%)       85 ins (4.00 cpi)
-FE8F : ADC #01                       :      170 cycles (  0.000107%)       85 ins (2.00 cpi)
-FE91 : STA 80                        :      255 cycles (  0.000160%)       85 ins (3.00 cpi)
-FE93 : LDA 0105,X                    :      340 cycles (  0.000213%)       85 ins (4.00 cpi)
-FE96 : ADC #00                       :      170 cycles (  0.000107%)       85 ins (2.00 cpi)
-FE98 : STA 81                        :      255 cycles (  0.000160%)       85 ins (3.00 cpi)
-FE9A : JSR FEAF                      :      510 cycles (  0.000320%)       85 ins (6.00 cpi)
-FE9D : LDA 80                        :      255 cycles (  0.000160%)       85 ins (3.00 cpi)
-FE9F : STA 0104,X                    :      425 cycles (  0.000267%)       85 ins (5.00 cpi)
-FEA2 : LDA 81                        :      255 cycles (  0.000160%)       85 ins (3.00 cpi)
-FEA4 : STA 0105,X                    :      425 cycles (  0.000267%)       85 ins (5.00 cpi)
-FEA7 : PLY                           :      340 cycles (  0.000213%)       85 ins (4.00 cpi)
-FEA8 : PLX                           :      340 cycles (  0.000213%)       85 ins (4.00 cpi)
-FEA9 : PLA                           :      340 cycles (  0.000213%)       85 ins (4.00 cpi)
-FEAA : RTS                           :      510 cycles (  0.000320%)       85 ins (6.00 cpi)
-FEAF : LDY #00                       :      570 cycles (  0.000358%)      285 ins (2.00 cpi)
-FEB1 : LDA (80),Y                    :     1425 cycles (  0.000894%)      285 ins (5.00 cpi)
-FEB3 : BEQ FEC0                      :      655 cycles (  0.000411%)      285 ins (2.30 cpi)
-FEB5 : JSR FE72                      :     1200 cycles (  0.000753%)      200 ins (6.00 cpi)
-FEB8 : INC 80                        :     1000 cycles (  0.000627%)      200 ins (5.00 cpi)
-FEBA : BNE FEAF                      :      600 cycles (  0.000376%)      200 ins (3.00 cpi)
-FEC0 : RTS                           :      510 cycles (  0.000320%)       85 ins (6.00 cpi)
+0206 : JMP 022B   :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
+022B : JSR FE87   :        6 cycles (  0.000004%)        1 ins (6.00 cpi)
+023C : STZ 21     :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
+023E : LDA #86    :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
+0240 : STA 20     :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
+0242 : LDX #20    :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
+0244 : JSR 0468   :        6 cycles (  0.000004%)        1 ins (6.00 cpi)
+0247 : JSR FE87   :        6 cycles (  0.000004%)        1 ins (6.00 cpi)
+024E : STZ 21     :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
+0250 : LDA #50    :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
+0252 : STA 20     :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
+0254 : LDX #20    :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
+0256 : JSR 0468   :        6 cycles (  0.000004%)        1 ins (6.00 cpi)
+0259 : JSR FE87   :        6 cycles (  0.000004%)        1 ins (6.00 cpi)
+025F : STZ 21     :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
+0261 : LDA #22    :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
+0263 : STA 20     :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
+0265 : LDX #20    :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
+0267 : JSR 0468   :        6 cycles (  0.000004%)        1 ins (6.00 cpi)
+026A : JSR FE87   :        6 cycles (  0.000004%)        1 ins (6.00 cpi)
+027C : LDA #C0    :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
+027E : STA 2C     :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
+0280 : LDA #FE    :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
+0282 : STA 2D     :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
+0284 : LDA #50    :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
+0286 : STA 3A     :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
+0288 : LDA #74    :      160 cycles (  0.000100%)       80 ins (2.00 cpi)
+028A : STA 2A     :      240 cycles (  0.000151%)       80 ins (3.00 cpi)
+028C : LDA #FE    :      160 cycles (  0.000100%)       80 ins (2.00 cpi)
+028E : STA 2B     :      240 cycles (  0.000151%)       80 ins (3.00 cpi)
+0290 : LDA #86    :      160 cycles (  0.000100%)       80 ins (2.00 cpi)
+0292 : STA 39     :      240 cycles (  0.000151%)       80 ins (3.00 cpi)
+0294 : LDA 2A     :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
+0296 : STA 20     :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
+0298 : LDA 2B     :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
+029A : STA 21     :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
+029C : LDA 2C     :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
+029E : STA 22     :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
+02A0 : LDA 2D     :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
+02A2 : STA 23     :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
+02A4 : LDX #22    :    21440 cycles (  0.013452%)    10720 ins (2.00 cpi)
+02A6 : STX 38     :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
+02A8 : LDY #00    :   316610 cycles (  0.198647%)   158305 ins (2.00 cpi) **
+02AA : LDA 21     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+02AC : BPL 02C2   :   358084 cycles (  0.224668%)   158305 ins (2.26 cpi) ***
+02AE : INY        :   233662 cycles (  0.146604%)   116831 ins (2.00 cpi) *
+02AF : SEC        :   233662 cycles (  0.146604%)   116831 ins (2.00 cpi) *
+02B0 : LDA #00    :   233662 cycles (  0.146604%)   116831 ins (2.00 cpi) *
+02B2 : SBC 20     :   350493 cycles (  0.219905%)   116831 ins (3.00 cpi) **
+02B4 : STA 20     :   350493 cycles (  0.219905%)   116831 ins (3.00 cpi) **
+02B6 : STA 32     :   350493 cycles (  0.219905%)   116831 ins (3.00 cpi) **
+02B8 : LDA #00    :   233662 cycles (  0.146604%)   116831 ins (2.00 cpi) *
+02BA : SBC 21     :   350493 cycles (  0.219905%)   116831 ins (3.00 cpi) **
+02BC : STA 21     :   350493 cycles (  0.219905%)   116831 ins (3.00 cpi) **
+02BE : STA 33     :   350493 cycles (  0.219905%)   116831 ins (3.00 cpi) **
+02C0 : BRA 02C8   :   350493 cycles (  0.219905%)   116831 ins (3.00 cpi) **
+02C2 : STA 33     :   124422 cycles (  0.078065%)    41474 ins (3.00 cpi) *
+02C4 : LDA 20     :   124422 cycles (  0.078065%)    41474 ins (3.00 cpi) *
+02C6 : STA 32     :   124422 cycles (  0.078065%)    41474 ins (3.00 cpi) *
+02C8 : STZ 34     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+02CA : LDA 23     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+02CC : BPL 02E2   :   397919 cycles (  0.249661%)   158305 ins (2.51 cpi) ***
+02CE : INY        :   153992 cycles (  0.096617%)    76996 ins (2.00 cpi) *
+02CF : SEC        :   153992 cycles (  0.096617%)    76996 ins (2.00 cpi) *
+02D0 : LDA #00    :   153992 cycles (  0.096617%)    76996 ins (2.00 cpi) *
+02D2 : SBC 22     :   230988 cycles (  0.144926%)    76996 ins (3.00 cpi) *
+02D4 : STA 22     :   230988 cycles (  0.144926%)    76996 ins (3.00 cpi) *
+02D6 : STA 35     :   230988 cycles (  0.144926%)    76996 ins (3.00 cpi) *
+02D8 : LDA #00    :   153992 cycles (  0.096617%)    76996 ins (2.00 cpi) *
+02DA : SBC 23     :   230988 cycles (  0.144926%)    76996 ins (3.00 cpi) *
+02DC : STA 23     :   230988 cycles (  0.144926%)    76996 ins (3.00 cpi) *
+02DE : STA 36     :   230988 cycles (  0.144926%)    76996 ins (3.00 cpi) *
+02E0 : BRA 02E8   :   230988 cycles (  0.144926%)    76996 ins (3.00 cpi) *
+02E2 : STA 36     :   243927 cycles (  0.153044%)    81309 ins (3.00 cpi) **
+02E4 : LDA 22     :   243927 cycles (  0.153044%)    81309 ins (3.00 cpi) **
+02E6 : STA 35     :   243927 cycles (  0.153044%)    81309 ins (3.00 cpi) **
+02E8 : STZ 37     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+02EA : STZ 2E     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+02EC : STZ 24     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+02EE : STZ 25     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+02F0 : STZ 2F     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+02F2 : STZ 26     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+02F4 : STZ 27     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+02F6 : STZ 31     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+02F8 : STZ 28     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+02FA : STZ 29     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+02FC : LSR 21     :  5238165 cycles (  3.286515%)  1047633 ins (5.00 cpi) ********************************************
+02FE : ROR 20     :  5238165 cycles (  3.286515%)  1047633 ins (5.00 cpi) ********************************************
+0300 : BCC 0328   :  2586300 cycles (  1.622689%)  1047633 ins (2.47 cpi) **********************
+0302 : CLC        :  1113198 cycles (  0.698440%)   556599 ins (2.00 cpi) *********
+0303 : LDA 2E     :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
+0305 : ADC 32     :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
+0307 : STA 2E     :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
+0309 : LDA 24     :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
+030B : ADC 33     :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
+030D : STA 24     :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
+030F : LDA 25     :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
+0311 : ADC 34     :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
+0313 : STA 25     :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
+0315 : CLC        :  1113198 cycles (  0.698440%)   556599 ins (2.00 cpi) *********
+0316 : LDA 31     :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
+0318 : ADC 35     :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
+031A : STA 31     :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
+031C : LDA 28     :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
+031E : ADC 36     :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
+0320 : STA 28     :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
+0322 : LDA 29     :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
+0324 : ADC 37     :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
+0326 : STA 29     :  1669797 cycles (  1.047660%)   556599 ins (3.00 cpi) **************
+0328 : LSR 23     :  5855760 cycles (  3.674005%)  1171152 ins (5.00 cpi) **************************************************
+032A : ROR 22     :  5855760 cycles (  3.674005%)  1171152 ins (5.00 cpi) **************************************************
+032C : BCC 0341   :  2979978 cycles (  1.869690%)  1171152 ins (2.54 cpi) *************************
+032E : CLC        :  1066956 cycles (  0.669427%)   533478 ins (2.00 cpi) *********
+032F : LDA 2F     :  1600434 cycles (  1.004140%)   533478 ins (3.00 cpi) *************
+0331 : ADC 35     :  1600434 cycles (  1.004140%)   533478 ins (3.00 cpi) *************
+0333 : STA 2F     :  1600434 cycles (  1.004140%)   533478 ins (3.00 cpi) *************
+0335 : LDA 26     :  1600434 cycles (  1.004140%)   533478 ins (3.00 cpi) *************
+0337 : ADC 36     :  1600434 cycles (  1.004140%)   533478 ins (3.00 cpi) *************
+0339 : STA 26     :  1600434 cycles (  1.004140%)   533478 ins (3.00 cpi) *************
+033B : LDA 27     :  1600434 cycles (  1.004140%)   533478 ins (3.00 cpi) *************
+033D : ADC 37     :  1600434 cycles (  1.004140%)   533478 ins (3.00 cpi) *************
+033F : STA 27     :  1600434 cycles (  1.004140%)   533478 ins (3.00 cpi) *************
+0341 : ASL 32     :  5855760 cycles (  3.674005%)  1171152 ins (5.00 cpi) **************************************************
+0343 : ROL 33     :  5855760 cycles (  3.674005%)  1171152 ins (5.00 cpi) **************************************************
+0345 : ROL 34     :  5855760 cycles (  3.674005%)  1171152 ins (5.00 cpi) **************************************************
+0347 : ASL 35     :  5855760 cycles (  3.674005%)  1171152 ins (5.00 cpi) **************************************************
+0349 : ROL 36     :  5855760 cycles (  3.674005%)  1171152 ins (5.00 cpi) **************************************************
+034B : ROL 37     :  5855760 cycles (  3.674005%)  1171152 ins (5.00 cpi) **************************************************
+034D : LDA 20     :  3513456 cycles (  2.204403%)  1171152 ins (3.00 cpi) ******************************
+034F : ORA 21     :  3513456 cycles (  2.204403%)  1171152 ins (3.00 cpi) ******************************
+0351 : BNE 02FC   :  4120960 cycles (  2.585562%)  1171152 ins (3.52 cpi) ***********************************
+0353 : LDA 22     :   845472 cycles (  0.530464%)   281824 ins (3.00 cpi) *******
+0355 : ORA 23     :   845472 cycles (  0.530464%)   281824 ins (3.00 cpi) *******
+0357 : BNE 0328   :   687167 cycles (  0.431140%)   281824 ins (2.44 cpi) *****
+0359 : LDA 31     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+035B : ASL A      :   316610 cycles (  0.198647%)   158305 ins (2.00 cpi) **
+035C : LDA 28     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+035E : ROL A      :   316610 cycles (  0.198647%)   158305 ins (2.00 cpi) **
+035F : STA 22     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+0361 : LDA 29     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+0363 : ROL A      :   316610 cycles (  0.198647%)   158305 ins (2.00 cpi) **
+0364 : STA 23     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+0366 : TYA        :   316610 cycles (  0.198647%)   158305 ins (2.00 cpi) **
+0367 : AND #01    :   316610 cycles (  0.198647%)   158305 ins (2.00 cpi) **
+0369 : BEQ 0378   :   394834 cycles (  0.247726%)   158305 ins (2.49 cpi) ***
+036B : SEC        :   160162 cycles (  0.100488%)    80081 ins (2.00 cpi) *
+036C : LDA #00    :   160162 cycles (  0.100488%)    80081 ins (2.00 cpi) *
+036E : SBC 22     :   240243 cycles (  0.150733%)    80081 ins (3.00 cpi) **
+0370 : STA 22     :   240243 cycles (  0.150733%)    80081 ins (3.00 cpi) **
+0372 : LDA #00    :   160162 cycles (  0.100488%)    80081 ins (2.00 cpi) *
+0374 : SBC 23     :   240243 cycles (  0.150733%)    80081 ins (3.00 cpi) **
+0376 : STA 23     :   240243 cycles (  0.150733%)    80081 ins (3.00 cpi) **
+0378 : CLC        :   316610 cycles (  0.198647%)   158305 ins (2.00 cpi) **
+0379 : LDA 24     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+037B : ADC 26     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+037D : LDA 25     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+037F : ADC 27     :   474915 cycles (  0.297970%)   158305 ins (3.00 cpi) ****
+0381 : CMP #05    :   316610 cycles (  0.198647%)   158305 ins (2.00 cpi) **
+0383 : BCS 03B3   :   323940 cycles (  0.203246%)   158305 ins (2.05 cpi) **
+0385 : SEC        :   301950 cycles (  0.189449%)   150975 ins (2.00 cpi) **
+0386 : LDA 24     :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
+0388 : SBC 26     :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
+038A : STA 20     :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
+038C : LDA 25     :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
+038E : SBC 27     :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
+0390 : STA 21     :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
+0392 : CLC        :   301950 cycles (  0.189449%)   150975 ins (2.00 cpi) **
+0393 : LDA 20     :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
+0395 : ADC 2A     :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
+0397 : STA 20     :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
+0399 : LDA 21     :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
+039B : ADC 2B     :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
+039D : STA 21     :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
+039F : CLC        :   301950 cycles (  0.189449%)   150975 ins (2.00 cpi) **
+03A0 : LDA 22     :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
+03A2 : ADC 2C     :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
+03A4 : STA 22     :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
+03A6 : LDA 23     :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
+03A8 : ADC 2D     :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
+03AA : STA 23     :   452925 cycles (  0.284173%)   150975 ins (3.00 cpi) ***
+03AC : DEC 38     :   754875 cycles (  0.473622%)   150975 ins (5.00 cpi) ******
+03AE : BEQ 03B3   :   305340 cycles (  0.191576%)   150975 ins (2.02 cpi) **
+03B0 : JMP 02A8   :   442755 cycles (  0.277792%)   147585 ins (3.00 cpi) ***
+03B3 : LDX 38     :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
+03B5 : LDA 0209,X :    42880 cycles (  0.026904%)    10720 ins (4.00 cpi)
+03B8 : JSR FE72   :    64320 cycles (  0.040355%)    10720 ins (6.00 cpi)
+03BB : CLC        :    21440 cycles (  0.013452%)    10720 ins (2.00 cpi)
+03BC : LDA 2A     :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
+03BE : ADC #04    :    21440 cycles (  0.013452%)    10720 ins (2.00 cpi)
+03C0 : STA 2A     :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
+03C2 : LDA 2B     :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
+03C4 : ADC #00    :    21440 cycles (  0.013452%)    10720 ins (2.00 cpi)
+03C6 : STA 2B     :    32160 cycles (  0.020178%)    10720 ins (3.00 cpi)
+03C8 : DEC 39     :    53600 cycles (  0.033630%)    10720 ins (5.00 cpi)
+03CA : BEQ 03CF   :    21520 cycles (  0.013502%)    10720 ins (2.01 cpi)
+03CC : JMP 0294   :    31920 cycles (  0.020027%)    10640 ins (3.00 cpi)
+03CF : JSR 0448   :      480 cycles (  0.000301%)       80 ins (6.00 cpi)
+03D2 : CLC        :      160 cycles (  0.000100%)       80 ins (2.00 cpi)
+03D3 : LDA 2C     :      240 cycles (  0.000151%)       80 ins (3.00 cpi)
+03D5 : ADC #08    :      160 cycles (  0.000100%)       80 ins (2.00 cpi)
+03D7 : STA 2C     :      240 cycles (  0.000151%)       80 ins (3.00 cpi)
+03D9 : LDA 2D     :      240 cycles (  0.000151%)       80 ins (3.00 cpi)
+03DB : ADC #00    :      160 cycles (  0.000100%)       80 ins (2.00 cpi)
+03DD : STA 2D     :      240 cycles (  0.000151%)       80 ins (3.00 cpi)
+03DF : DEC 3A     :      400 cycles (  0.000251%)       80 ins (5.00 cpi)
+03E1 : BEQ 03E6   :      161 cycles (  0.000101%)       80 ins (2.01 cpi)
+03E3 : JMP 0288   :      237 cycles (  0.000149%)       79 ins (3.00 cpi)
+03E6 : BRA 03E6   :   853128 cycles (  0.535267%)   284376 ins (3.00 cpi) *******
+0448 : JSR FE87   :      480 cycles (  0.000301%)       80 ins (6.00 cpi)
+044E : RTS        :      480 cycles (  0.000301%)       80 ins (6.00 cpi)
+0468 : PHA        :        9 cycles (  0.000006%)        3 ins (3.00 cpi)
+0469 : LDA 00,X   :       12 cycles (  0.000008%)        3 ins (4.00 cpi)
+046B : STA 18     :        9 cycles (  0.000006%)        3 ins (3.00 cpi)
+046D : LDA 01,X   :       12 cycles (  0.000008%)        3 ins (4.00 cpi)
+046F : STA 19     :        9 cycles (  0.000006%)        3 ins (3.00 cpi)
+0471 : PHY        :        9 cycles (  0.000006%)        3 ins (3.00 cpi)
+0472 : LDA #00    :        6 cycles (  0.000004%)        3 ins (2.00 cpi)
+0474 : PHA        :        9 cycles (  0.000006%)        3 ins (3.00 cpi)
+0475 : LDA #00    :       14 cycles (  0.000009%)        7 ins (2.00 cpi)
+0477 : STA 1A     :       21 cycles (  0.000013%)        7 ins (3.00 cpi)
+0479 : LDY #10    :       14 cycles (  0.000009%)        7 ins (2.00 cpi)
+047B : ASL 18     :      560 cycles (  0.000351%)      112 ins (5.00 cpi)
+047D : ROL 19     :      560 cycles (  0.000351%)      112 ins (5.00 cpi)
+047F : ROL 1A     :      560 cycles (  0.000351%)      112 ins (5.00 cpi)
+0481 : LDA 1A     :      336 cycles (  0.000211%)      112 ins (3.00 cpi)
+0483 : SEC        :      224 cycles (  0.000141%)      112 ins (2.00 cpi)
+0484 : SBC #0A    :      224 cycles (  0.000141%)      112 ins (2.00 cpi)
+0486 : BCC 048C   :      329 cycles (  0.000206%)      112 ins (2.94 cpi)
+0488 : STA 1A     :       21 cycles (  0.000013%)        7 ins (3.00 cpi)
+048A : INC 18     :       35 cycles (  0.000022%)        7 ins (5.00 cpi)
+048C : DEY        :      224 cycles (  0.000141%)      112 ins (2.00 cpi)
+048D : BNE 047B   :      329 cycles (  0.000206%)      112 ins (2.94 cpi)
+048F : LDA 1A     :       21 cycles (  0.000013%)        7 ins (3.00 cpi)
+0491 : ORA #30    :       14 cycles (  0.000009%)        7 ins (2.00 cpi)
+0493 : PHA        :       21 cycles (  0.000013%)        7 ins (3.00 cpi)
+0494 : LDA 18     :       21 cycles (  0.000013%)        7 ins (3.00 cpi)
+0496 : ORA 19     :       21 cycles (  0.000013%)        7 ins (3.00 cpi)
+0498 : BNE 0475   :       18 cycles (  0.000011%)        7 ins (2.57 cpi)
+049A : PLA        :       12 cycles (  0.000008%)        3 ins (4.00 cpi)
+049B : JSR FE72   :       42 cycles (  0.000026%)        7 ins (6.00 cpi)
+049E : PLA        :       28 cycles (  0.000018%)        7 ins (4.00 cpi)
+049F : BNE 049B   :       18 cycles (  0.000011%)        7 ins (2.57 cpi)
+04A1 : PLY        :       12 cycles (  0.000008%)        3 ins (4.00 cpi)
+04A2 : PLA        :       12 cycles (  0.000008%)        3 ins (4.00 cpi)
+04A3 : RTS        :       18 cycles (  0.000011%)        3 ins (6.00 cpi)
+FE00 : LDX #40    :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
+FE02 : STX 0203   :        4 cycles (  0.000003%)        1 ins (4.00 cpi)
+FE05 : STX 0200   :        4 cycles (  0.000003%)        1 ins (4.00 cpi)
+FE08 : LDX #FF    :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
+FE0A : TXS        :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
+FE0B : SEI        :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
+FE0C : CLV        :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
+FE0D : CLD        :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
+FE0E : CPX #00    :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
+FE10 : TXA        :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
+FE11 : TAY        :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
+FE12 : LDA #0C    :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
+FE14 : STA FF00   :        4 cycles (  0.000003%)        1 ins (4.00 cpi)
+FE17 : JSR FE87   :        6 cycles (  0.000004%)        1 ins (6.00 cpi)
+FE23 : JSR FE7E   :       36 cycles (  0.000023%)        6 ins (6.00 cpi)
+FE26 : JSR FE72   :       36 cycles (  0.000023%)        6 ins (6.00 cpi)
+FE29 : DEC A      :       12 cycles (  0.000008%)        6 ins (2.00 cpi)
+FE2A : BEQ FE5C   :       14 cycles (  0.000009%)        6 ins (2.33 cpi)
+FE2C : DEC A      :        8 cycles (  0.000005%)        4 ins (2.00 cpi)
+FE2D : BEQ FE34   :       11 cycles (  0.000007%)        4 ins (2.75 cpi)
+FE2F : DEC A      :        2 cycles (  0.000001%)        1 ins (2.00 cpi)
+FE30 : BEQ FE59   :        3 cycles (  0.000002%)        1 ins (3.00 cpi)
+FE34 : LDY #00    :        6 cycles (  0.000004%)        3 ins (2.00 cpi)
+FE36 : STZ 02     :        9 cycles (  0.000006%)        3 ins (3.00 cpi)
+FE38 : STZ 03     :        9 cycles (  0.000006%)        3 ins (3.00 cpi)
+FE3A : CLC        :        6 cycles (  0.000004%)        3 ins (2.00 cpi)
+FE3B : JSR FE7E   :     4608 cycles (  0.002891%)      768 ins (6.00 cpi)
+FE3E : STA (00),Y :     4608 cycles (  0.002891%)      768 ins (6.00 cpi)
+FE40 : ADC 02     :     2304 cycles (  0.001446%)      768 ins (3.00 cpi)
+FE42 : STA 02     :     2304 cycles (  0.001446%)      768 ins (3.00 cpi)
+FE44 : ADC 03     :     2304 cycles (  0.001446%)      768 ins (3.00 cpi)
+FE46 : STA 03     :     2304 cycles (  0.001446%)      768 ins (3.00 cpi)
+FE48 : INY        :     1536 cycles (  0.000964%)      768 ins (2.00 cpi)
+FE49 : BNE FE3B   :     2301 cycles (  0.001444%)      768 ins (3.00 cpi)
+FE4B : LDA 02     :        9 cycles (  0.000006%)        3 ins (3.00 cpi)
+FE4D : JSR FE72   :       18 cycles (  0.000011%)        3 ins (6.00 cpi)
+FE50 : LDA 03     :        9 cycles (  0.000006%)        3 ins (3.00 cpi)
+FE52 : JSR FE72   :       18 cycles (  0.000011%)        3 ins (6.00 cpi)
+FE55 : INC 01     :       15 cycles (  0.000009%)        3 ins (5.00 cpi)
+FE57 : BRA FE23   :        9 cycles (  0.000006%)        3 ins (3.00 cpi)
+FE59 : JMP (0000) :        6 cycles (  0.000004%)        1 ins (6.00 cpi)
+FE5C : JSR FE7E   :       12 cycles (  0.000008%)        2 ins (6.00 cpi)
+FE5F : STA 00     :        6 cycles (  0.000004%)        2 ins (3.00 cpi)
+FE61 : JSR FE7E   :       12 cycles (  0.000008%)        2 ins (6.00 cpi)
+FE64 : STA 01     :        6 cycles (  0.000004%)        2 ins (3.00 cpi)
+FE66 : LDA 00     :        6 cycles (  0.000004%)        2 ins (3.00 cpi)
+FE68 : JSR FE72   :       12 cycles (  0.000008%)        2 ins (6.00 cpi)
+FE6B : LDA 01     :        6 cycles (  0.000004%)        2 ins (3.00 cpi)
+FE6D : JSR FE72   :       12 cycles (  0.000008%)        2 ins (6.00 cpi)
+FE70 : BRA FE23   :        6 cycles (  0.000004%)        2 ins (3.00 cpi)
+FE72 : STA FF70   :    49564 cycles (  0.031097%)    12391 ins (4.00 cpi)
+FE75 : BIT FF01   :    49564 cycles (  0.031097%)    12391 ins (4.00 cpi)
+FE78 : BPL FE72   :    26230 cycles (  0.016457%)    12391 ins (2.12 cpi)
+FE7A : STA FF00   :    43772 cycles (  0.027463%)    10943 ins (4.00 cpi)
+FE7D : RTS        :    65658 cycles (  0.041195%)    10943 ins (6.00 cpi)
+FE7E : BIT FF01   :    81140 cycles (  0.050909%)    20285 ins (4.00 cpi)
+FE81 : BVC FE7E   :    60077 cycles (  0.037693%)    20285 ins (2.96 cpi)
+FE83 : LDA FF00   :     3112 cycles (  0.001953%)      778 ins (4.00 cpi)
+FE86 : RTS        :     4668 cycles (  0.002929%)      778 ins (6.00 cpi)
+FE87 : PHA        :      255 cycles (  0.000160%)       85 ins (3.00 cpi)
+FE88 : PHX        :      255 cycles (  0.000160%)       85 ins (3.00 cpi)
+FE89 : PHY        :      255 cycles (  0.000160%)       85 ins (3.00 cpi)
+FE8A : TSX        :      170 cycles (  0.000107%)       85 ins (2.00 cpi)
+FE8B : CLC        :      170 cycles (  0.000107%)       85 ins (2.00 cpi)
+FE8C : LDA 0104,X :      340 cycles (  0.000213%)       85 ins (4.00 cpi)
+FE8F : ADC #01    :      170 cycles (  0.000107%)       85 ins (2.00 cpi)
+FE91 : STA 80     :      255 cycles (  0.000160%)       85 ins (3.00 cpi)
+FE93 : LDA 0105,X :      340 cycles (  0.000213%)       85 ins (4.00 cpi)
+FE96 : ADC #00    :      170 cycles (  0.000107%)       85 ins (2.00 cpi)
+FE98 : STA 81     :      255 cycles (  0.000160%)       85 ins (3.00 cpi)
+FE9A : JSR FEAF   :      510 cycles (  0.000320%)       85 ins (6.00 cpi)
+FE9D : LDA 80     :      255 cycles (  0.000160%)       85 ins (3.00 cpi)
+FE9F : STA 0104,X :      425 cycles (  0.000267%)       85 ins (5.00 cpi)
+FEA2 : LDA 81     :      255 cycles (  0.000160%)       85 ins (3.00 cpi)
+FEA4 : STA 0105,X :      425 cycles (  0.000267%)       85 ins (5.00 cpi)
+FEA7 : PLY        :      340 cycles (  0.000213%)       85 ins (4.00 cpi)
+FEA8 : PLX        :      340 cycles (  0.000213%)       85 ins (4.00 cpi)
+FEA9 : PLA        :      340 cycles (  0.000213%)       85 ins (4.00 cpi)
+FEAA : RTS        :      510 cycles (  0.000320%)       85 ins (6.00 cpi)
+FEAF : LDY #00    :      570 cycles (  0.000358%)      285 ins (2.00 cpi)
+FEB1 : LDA (80),Y :     1425 cycles (  0.000894%)      285 ins (5.00 cpi)
+FEB3 : BEQ FEC0   :      655 cycles (  0.000411%)      285 ins (2.30 cpi)
+FEB5 : JSR FE72   :     1200 cycles (  0.000753%)      200 ins (6.00 cpi)
+FEB8 : INC 80     :     1000 cycles (  0.000627%)      200 ins (5.00 cpi)
+FEBA : BNE FEAF   :      600 cycles (  0.000376%)      200 ins (3.00 cpi)
+FEC0 : RTS        :      510 cycles (  0.000320%)       85 ins (6.00 cpi)
 **** :        9 cycles (  0.000006%)        1 ins (9.00 cpi)
-: 159383550 cycles (100.000000%) 47216459 ins (3.38 cpi)
+: 159383550 cycles (100.000000%) 47216558 ins (3.38 cpi)
